@@ -2,6 +2,7 @@
 
 This is a console-based ATM Interface built using Python. The system allows users to perform various banking operations such as viewing transaction history, withdrawing money, depositing money, transferring money, and quitting the application.
 
+This is the Task 1 for my OctaNet Internship training as python developer.
 ## Features
 
 - **User Authentication**: Users must enter their user ID and PIN to access the ATM functionalities.
