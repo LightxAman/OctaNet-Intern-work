@@ -45,4 +45,4 @@ The application is structured into five different classes:
 Run the main Python file to start the ATM interface:
 
 ```sh
-Task1.py
+main.py
