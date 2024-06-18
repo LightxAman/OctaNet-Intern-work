@@ -1,3 +1,5 @@
+# By LightxAman
+
 import tkinter as tk
 
 from deposit import Deposit
