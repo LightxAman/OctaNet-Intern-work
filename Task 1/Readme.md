@@ -1,5 +1,7 @@
 # ATM Interface
 
+By LightxAman
+
 This is a console-based ATM Interface built using Python and Tkinter for a graphical user interface. The system allows users to perform various banking operations such as viewing transaction history, withdrawing money, depositing money, transferring money, and quitting the application.
 
 ## Features
