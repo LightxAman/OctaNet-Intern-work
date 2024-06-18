@@ -1,48 +1,56 @@
 # ATM Interface
 
-This is a console-based ATM Interface built using Python. The system allows users to perform various banking operations such as viewing transaction history, withdrawing money, depositing money, transferring money, and quitting the application.
+This is a console-based ATM Interface built using Python and Tkinter for a graphical user interface. The system allows users to perform various banking operations such as viewing transaction history, withdrawing money, depositing money, transferring money, and quitting the application.
 
-This is the Task 1 for my OctaNet Internship training as python developer.
 ## Features
 
-- **User Authentication**: Users must enter their user ID and PIN to access the ATM functionalities.
+- **User Registration and Login**: Users must register and then log in using their user ID and PIN to access the ATM functionalities.
 - **Transaction History**: View a list of past transactions.
 - **Withdraw**: Withdraw a specified amount of money.
 - **Deposit**: Deposit a specified amount of money.
 - **Transfer**: Transfer a specified amount of money to another account.
 - **Quit**: Exit the application.
 
-## Classes
+## Project Structure
 
-The application is structured into five different classes:
+The application is structured into multiple files for better organization:
 
-1. **ATM**: Main class that handles the ATM operations.
-2. **User**: Represents a user with a user ID, PIN, and account balance.
-3. **TransactionHistory**: Manages the transaction history for users.
-4. **Withdraw**: Handles withdrawal operations.
-5. **Deposit**: Handles deposit operations.
-6. **Transfer**: Handles money transfer operations.
+- `main.py`: Main application file.
+- `registration.py`: Handles user registration and login.
+- `transactions.py`: Manages viewing of transaction history.
+- `withdraw.py`: Handles withdrawal operations.
+- `deposit.py`: Handles deposit operations.
+- `transfer.py`: Handles money transfer operations.
+- `users.txt`: Stores user data.
 
 ## Getting Started
 
 ### Prerequisites
 
 - Python 3.x installed on your machine.
+- Tkinter library for Python.
 
 ### Installation
 
 1. Clone the repository to your local machine:
-    ```sh
-    https://github.com/LightxAman/OctaNet-Intern-work.git
-    ```
+
+
 2. Navigate to the project directory:
     ```sh
     cd Task 1
     ```
+3. Ensure all required files are in place:
+    - `main.py`
+    - `registration.py`
+    - `transactions.py`
+    - `withdraw.py`
+    - `deposit.py`
+    - `transfer.py`
+    - `users.txt` (this file will be created automatically if it doesn't exist)
 
 ### Running the Application
 
 Run the main Python file to start the ATM interface:
 
 ```sh
-main.py
+python main.py
